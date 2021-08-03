@@ -42,8 +42,8 @@ a:hover {
 
 .color {
   flex: 1;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   padding-left: 2vw;
   padding-right: 2vw;
   border-left: 1px solid black;
@@ -56,8 +56,8 @@ a:hover {
   border-left: 1px solid black;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 
