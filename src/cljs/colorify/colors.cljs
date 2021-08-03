@@ -7,6 +7,7 @@
 (def light-on-model [:model :direct 0.5])
 (def refracted-on-model [:model [:surface :direct 0.4] 0.5])
 (def blood-refraction [:model :blood 0.2])
+(def light-on-model-blood [[:model :direct 0.5] :blood 0.2])
 
 
 (defn is-too-dark? [hex] (< (col/brightness (col/css hex)) 0.5))
@@ -37,6 +38,6 @@
 (defn generate-gradient-skintones []
 	(->> [refracted-on-model
 							[:model :model 1]
-							light-on-model
+							light-on-model-blood
 							blood-refraction]
 		(map get-css-from-mix)))
