@@ -18,4 +18,4 @@ jobs:
     - name: Build static
       run: lein cljsbuild once
     - name: Bundle static
-      run: ./compile.sh
+      run: bash ./compile.sh
