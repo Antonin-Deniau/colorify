@@ -1,0 +1,8 @@
+{:lein         {:profile "+shadow-cljs"}
+ :builds       {:app {:target     :browser
+                      :output-dir "resources/public/js"
+                      :asset-path "/js"
+                      :modules    {:app {:entries [colorify.core]}}
+                      :devtools   {:after-load colorify.core/mount-root}}}
+ :dev-http     {3000 {:root    "resources/public"
+                      :handler colorify.handler/app}}}

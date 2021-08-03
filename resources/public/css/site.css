@@ -1,0 +1,86 @@
+.body-container {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 640px;
+  margin: 0 auto;
+  padding-top: 72px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.color-container {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+  margin-top: 2vh;
+}
+
+.color {
+  flex: 1;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.color-gradient {
+  flex: 1;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+
+.skin-tones {
+  flex: 1;
+  margin-top: 30px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  text-align: center;
+}
+
+.color-picker {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.color-cursor {
+  width: 0;
+  height: 0;
+  position: relative;
+  transform: translate(-9px);
+}
