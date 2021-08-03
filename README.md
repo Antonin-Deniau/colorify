@@ -1,6 +1,7 @@
-# colorify
+# Colorify
 
-This is the colorify project.
+This is a webtool to generate gradients, helping painter to learn how lighting and skin tones work.
+(Currently it just interpolate colors, no complex physics included.)
 
 ## Development mode
 
