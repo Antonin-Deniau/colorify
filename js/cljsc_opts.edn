@@ -1,0 +1,1 @@
+{:infer-externs true, :output-dir "target/cljsbuild/public/js", :externs ["closure-js/externs"], :optimizations :advanced, :output-to "target/cljsbuild/public/js/app.js", :output-wrapper true, :source-map "target/cljsbuild/public/js/app.js.map", :libs ["closure-js/libs"], :pretty-print false}
